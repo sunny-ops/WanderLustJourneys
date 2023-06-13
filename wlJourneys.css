@@ -421,7 +421,7 @@ nav .nav-right .destinations {
   border: 1px solid rgba(192, 192, 211, 0.2);
 }
 .section .benefit-card {
-  padding: 30px 36px;
+  padding: 30px 30px;
   flex-grow: 1;
 }
 .section .right-border {
@@ -732,6 +732,39 @@ nav .nav-right .destinations {
   border-radius: 10px;
   width: 280px;
   height: 325px;
+  background-position: 50% 50%;
+}
+
+.footer {
+  padding-left: 116px;
+  padding-top: 48px;
+  padding-bottom: 12px;
+}
+
+.footer-wrapper {
+  width: 1362px;
+  height: 82px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.credit-text {
+  color: #516381;
+  font-size: 12px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.footer-pages {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1440px) {
