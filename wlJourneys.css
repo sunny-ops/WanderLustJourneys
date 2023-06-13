@@ -70,6 +70,14 @@ body {
   font-display: swap;
 }
 
+.subtitle.white {
+  color: #fff;
+}
+.xxl-heading {
+  font-size: 68px;
+  line-height: 1.1em;
+  color: #fff;
+}
 .body-display.small {
   font-size: 14px;
   line-height: 1.4em;
@@ -93,6 +101,11 @@ h2 {
   line-height: 1.3em;
   font-weight: 600;
   letter-spacing: -0.03em;
+}
+
+.section.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 img {
@@ -236,6 +249,7 @@ nav .nav-right .destinations {
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(15, 19, 38, 0.55);
+  overflow: hidden;
 }
 
 .overlay {
@@ -248,11 +262,85 @@ nav .nav-right .destinations {
   background-color: rgba(15, 19, 38, 0.55);
 }
 
+.home-hero .grid-wrapper {
+  width: 1300px;
+  margin: 400px auto;
+}
+
+.home-hero .subtitle-intro-wrapper {
+  position: relative;
+  width: 400px;
+  left: 1300px;
+  top: -120px;
+  z-index: 10;
+}
+
+.slider-bottom {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  z-index: 20;
+  display: flex;
+  width: 100%;
+  height: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.featured-location {
+  display: -ms-grid;
+  display: grid;
+  width: 360px;
+  padding: 36px;
+  align-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  background-color: #f7f8fc;
+  color: #081c3a;
+  text-decoration: none;
+}
+
+.featured-icon {
+  width: 18px;
+}
+
+.hero-slide-arrow {
+  left: auto;
+  top: auto;
+  right: 360px;
+  bottom: 0%;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid none none;
+  border-width: 1px;
+  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6)
+    hsla(0, 0%, 100%, 0.6);
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+.featured-location-icon {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
 .section {
   padding: 140px 0;
 }
 
-.section .subtitle {
+.subtitle {
   font-size: 11px;
   line-height: 1.4em;
   font-weight: 400;
@@ -271,8 +359,12 @@ nav .nav-right .destinations {
 .benefits {
   margin-left: 80px;
   background-color: #f7f8fc;
-  padding: 140px 18%;
-  min-width: 1040px !important;
+}
+
+.section .intro-wrapper {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section .intro-content {
@@ -313,8 +405,11 @@ nav .nav-right .destinations {
 
 .section .benefits-bottom {
   margin-top: 100px;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.section .horizontal-line {
+.horizontal-line {
   height: 1px;
   flex: 1;
   background-color: rgba(192, 192, 211, 0.2);
@@ -327,8 +422,7 @@ nav .nav-right .destinations {
 }
 .section .benefit-card {
   padding: 30px 36px;
-  min-height: 275px;
-  /* border: 1px solid rgba(192, 192, 211, 0.2); */
+  flex-grow: 1;
 }
 .section .right-border {
   border-right: 1px solid rgba(192, 192, 211, 0.2);
@@ -416,9 +510,55 @@ nav .nav-right .destinations {
   width: 16px;
 }
 
+/* membership section */
+.section .popular-vacations {
+  padding: 36px 36px 0px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.section .vacation-card {
+  padding: 18px 18px;
+}
+
+.vacations-verticle-card {
+  min-height: 300px;
+  padding: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(192, 192, 211, 0.2);
+  border-radius: 12px;
+  transition: box-shadow 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.verticle-card-image {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 250px;
+  border-radius: 12px;
+}
+
+.vacation-details {
+  padding-top: 18px;
+  padding-right: 12px;
+  padding-left: 12px;
+
+  border-top: 1px solid rgba(192, 192, 211, 0.2);
+}
+
+.vacation-card-info {
+  min-height: 60px;
+  padding-right: 12px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+}
+
 .contact-section {
   margin-left: 80px;
-  background-color: antiquewhite;
+  padding: 80px;
+  background: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607b6ec5eba5a81fd8c62ddd_031.jpeg);
+  background-position: center;
 }
 
 .contact-section .contact-section-intro {
@@ -447,6 +587,7 @@ nav .nav-right .destinations {
 .button.white {
   background-color: #fff;
   color: #081c3a;
+  justify-self: start;
 }
 
 .outline-button {
@@ -472,14 +613,46 @@ nav .nav-right .destinations {
   color: #fff;
 }
 
+.video-hover-button {
+  position: relative;
+  z-index: 35;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: rgba(192, 192, 211, 0.3);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.video-icon-wrapper {
+  display: flex;
+  width: 60%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  background-color: rgba(192, 192, 211, 0.2);
+}
+
 .about {
   margin-left: 80px;
-  padding: 140px 18% 100px 18%;
+}
+
+.about-wrapper {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .agent {
   margin-left: 80px;
-  padding: 140px 18% 100px 18%;
 }
 
 .outline-button.small {
@@ -489,6 +662,7 @@ nav .nav-right .destinations {
 .team-image {
   border-radius: 10px;
   width: 280px;
+  height: 325px;
 }
 
 @media screen and (min-width: 1440px) {
