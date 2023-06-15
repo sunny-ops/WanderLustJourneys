@@ -249,11 +249,13 @@ nav .nav-right .destinations {
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(15, 19, 38, 0.55);
-  overflow: hidden;
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
+  width: 100vw;
+  height: 1124px;
+  overflow: hidden;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -264,15 +266,17 @@ nav .nav-right .destinations {
 
 .home-hero .grid-wrapper {
   width: 1300px;
-  margin: 400px auto;
+  margin: 0 auto;
+  margin-top: 400px;
 }
 
 .home-hero .subtitle-intro-wrapper {
-  position: relative;
+  float: left;
+  /* position: relative;
   width: 400px;
   left: 1300px;
-  top: -120px;
-  z-index: 10;
+  top: 250px;
+  z-index: 10; */
 }
 
 .slider-bottom {
@@ -285,8 +289,7 @@ nav .nav-right .destinations {
   display: flex;
   width: 100%;
   height: 140px;
-  margin-right: auto;
-  margin-left: auto;
+
   justify-content: center;
 }
 
