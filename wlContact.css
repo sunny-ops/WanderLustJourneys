@@ -254,8 +254,8 @@ nav .nav-link {
 
 .home-hero {
   width: 100vw;
-  height: 1124px;
-  background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd3355581e17e093caed_011.jpeg);
+  height: 700px;
+  background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607503213f245d75fcd95368_Travel002.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -265,7 +265,7 @@ nav .nav-link {
 .overlay {
   position: relative;
   width: 100vw;
-  height: 1124px;
+  height: 700px;
   overflow: hidden;
   left: 0%;
   top: 0%;
@@ -295,6 +295,10 @@ nav .nav-link {
 
 .home-hero .subtitle-intro-wrapper {
   float: left;
+}
+
+.home-hero .wrapper {
+  height: 700px;
 }
 
 .slider-bottom {

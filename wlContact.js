@@ -1,9 +1,11 @@
+console.log("hahah");
 var scrollDiv = document.querySelector(".scroll-div");
 var navRight = document.querySelector(".nav-right");
 var brand = document.querySelector(".brand");
 var destinations = document.querySelector(".destinations");
 window.onscroll = () => {
-  //   console.log(window.scrollY);
+  console.log("hehehe");
+  console.log(window.scrollY);
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
   scrollDiv.style.top = `${window.scrollY / 5 - 80}px`;
