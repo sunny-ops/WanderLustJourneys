@@ -521,6 +521,15 @@ nav .nav-link {
   padding: 30px 30px;
   flex-grow: 1;
 }
+.section .benefit-card:hover {
+  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: 1s;
+  /* border: 2px solid rgba(192, 192, 211, 0.2); */
+  background-color: #fff;
+  border-radius: 10px;
+}
 .section .right-border {
   border-right: 1px solid rgba(192, 192, 211, 0.2);
 }
@@ -827,7 +836,6 @@ nav .nav-link {
 
 .team-image {
   border-radius: 10px;
-  width: 280px;
   height: 325px;
   background-position: center;
   background-size: cover;
