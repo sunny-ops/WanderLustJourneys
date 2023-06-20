@@ -829,7 +829,8 @@ nav .nav-link {
   border-radius: 10px;
   width: 280px;
   height: 325px;
-  background-position: 50% 50%;
+  background-position: center;
+  background-size: cover;
 }
 
 .footer {
