@@ -45,7 +45,7 @@ left.onclick = () => {
       inner.style.transition = "0.5s";
       inner.style.left = `${-i * 800}px`;
     }, 0);
-    // Q1. 如果43-47注释掉，直接换成下面几行为什么不行呢？
+    // Q2. 如果43-47注释掉，直接换成下面几行为什么不行呢？
     // i--;
     // inner.style.transition = "0.5s";
     // inner.style.left = `${-i * 800}px`;
@@ -54,3 +54,4 @@ left.onclick = () => {
     inner.style.left = `${-i * 800}px`;
   }
 };
+// Q1. 第一次点右键滑动的时候没有延迟
