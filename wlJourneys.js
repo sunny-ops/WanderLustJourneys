@@ -22,6 +22,7 @@ var cloneImg = firstImg.cloneNode();
 inner.appendChild(cloneImg);
 var i = 1;
 right.onclick = () => {
+  console.log("right");
   i++;
   inner.style.transition = "0.5s";
   inner.style.left = `${-i * 800}px`;
@@ -33,8 +34,10 @@ right.onclick = () => {
     }, 500);
   }
 };
-
+console.log(left);
+console.log(right);
 left.onclick = () => {
+  console.log("left");
   i--;
   if (i == -1) {
     i = 4;
