@@ -376,6 +376,76 @@ nav .nav-link {
   letter-spacing: -0.025em;
 }
 
+.slider-wrapper {
+  position: relative;
+  padding: 60px 0 48px 80px;
+  overflow: hidden;
+}
+
+.slider-inner {
+  position: relative;
+  width: 800px;
+  height: 475px;
+  display: flex;
+  left: -800px;
+  margin: 0 auto;
+}
+
+.slider-inner .slider-img {
+  display: inline;
+  /* width: 800px; */
+  width: 760px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 475px;
+  flex-shrink: 0;
+  /* margin-right: 50px; */
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.slider-inner .slider-card-bottom {
+  margin-top: 350px;
+}
+
+.slider-wrapper .w-slider-arrow-left,
+.slider-wrapper .w-slider-arrow-right {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100px;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  font-size: 40px;
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+.slider-wrapper .slider-arrow {
+  position: absolute;
+  left: 900px;
+  top: auto;
+  right: auto;
+  bottom: 18px;
+  width: 60px;
+  height: 60px;
+  margin-left: -72px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efeff7;
+  border-radius: 100px;
+  background-color: #fff;
+}
+.slider-wrapper .slider-arrow.right {
+  margin-right: -72px;
+  margin-left: 0px;
+}
+
 .benefits {
   margin-left: 80px;
   background-color: #f7f8fc;
