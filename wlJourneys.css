@@ -119,6 +119,7 @@ img {
   overflow: hidden;
   margin-left: 80px;
   background-color: #f7f8fc;
+  z-index: 0;
 }
 
 .scroll-indicator {
@@ -380,6 +381,7 @@ nav .nav-link {
   position: relative;
   padding: 60px 0 48px 80px;
   overflow: hidden;
+  z-index: -1;
 }
 
 .slider-inner {
