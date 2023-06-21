@@ -489,6 +489,11 @@ nav .nav-link {
   text-decoration: none;
 }
 
+.section .intro-content .choose-a-des:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  background-color: #081c3a;
+}
+
 .section .intro-image {
   background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6075041a5cc5c760b623c7e7_Travel004.jpeg);
   height: 437px;
@@ -742,9 +747,14 @@ nav .nav-link {
 /* contact-section */
 .contact-section {
   margin-left: 80px;
-  padding: 80px;
+  /* padding: 80px; */
   background: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607b6ec5eba5a81fd8c62ddd_031.jpeg);
   background-position: center;
+}
+
+.contact-section .contact-overlay {
+  padding: 80px;
+  background-color: rgba(15, 19, 38, 0.55);
 }
 
 .contact-section .contact-section-intro {
@@ -774,6 +784,11 @@ nav .nav-link {
   background-color: #fff;
   color: #081c3a;
   justify-self: start;
+}
+.button.white:hover {
+  background-color: #e6e6f3;
+  color: #081c3a;
+  transform: scale3d(1.05, 1.05, 1);
 }
 
 .outline-button {
