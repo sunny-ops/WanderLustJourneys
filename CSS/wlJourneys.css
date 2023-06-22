@@ -462,31 +462,28 @@ nav .nav-link {
   transform: scale(1);
 }
 
-.slider-wrapper .w-slider-arrow-left,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: '' !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-next:after {
+  content: '' !important;
+}
+
+.slider-wrapper .w-slider-arrow-left {
+  margin-left: 20px;
+}
+
 .slider-wrapper .w-slider-arrow-right {
-  position: absolute;
-  width: 80px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 100px;
-  cursor: pointer;
-  overflow: hidden;
-  color: white;
-  font-size: 40px;
-  tap-highlight-color: rgba(0, 0, 0, 0);
-  user-select: none;
+  margin-right: 20px;
 }
 
 .slider-wrapper .slider-arrow {
   position: absolute;
-  left: 900px;
-  top: auto;
-  right: auto;
-  bottom: 18px;
   width: 60px;
   height: 60px;
-  margin-left: -72px;
   justify-content: center;
   align-items: center;
   border-style: solid;
@@ -494,11 +491,6 @@ nav .nav-link {
   border-color: #efeff7;
   border-radius: 100px;
   background-color: #fff;
-}
-
-.slider-wrapper .slider-arrow.right {
-  margin-right: -72px;
-  margin-left: 0px;
 }
 
 .benefits {
