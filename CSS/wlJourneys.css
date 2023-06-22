@@ -9,6 +9,11 @@ body {
   color: #081c3a;
 }
 
+.swiper {
+  width: 100%;
+  height: 475px;
+}
+
 @font-face {
   font-family: "Eudoxussans";
   src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
@@ -420,28 +425,41 @@ nav .nav-link {
   z-index: 0;
 }
 
-.slider-inner .slider-img {
-  display: inline;
-  /* width: 800px; */
-  width: 760px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 475px;
-  flex-shrink: 0;
-  /* margin-right: 50px; */
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.slider-inner .slider-img:hover {
-  transition: 2s;
-  background-size: 105%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.slider-inner .slider-card-bottom {
+.swiper-slide .slider-card-bottom {
   margin-top: 350px;
+}
+
+/* .swiper-container {
+  width: 100%;
+  height: 100%;
+} */
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  transform: scale(1);
 }
 
 .slider-wrapper .w-slider-arrow-left,
