@@ -166,14 +166,14 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"
+          <div class="swiper-slide swiper-slide-scale"
             style="background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd1ef1d9b0b767714525_001.jpeg);">
             <div class="slider-card-bottom text-center">
               <div class="subtitle white">6 vacations</div>
               <h2 style="color: white; letter-spacing: 2px">France</h2>
             </div>
           </div>
-          <div class="swiper-slide"
+          <div class="swiper-slide swiper-slide-scale"
             style="background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd2961c3e396968aac28_031.jpeg);">
             <div class="slider-card-bottom text-center">
               <div class="subtitle white">6 vacations</div>
@@ -181,14 +181,14 @@
             </div>
 
           </div>
-          <div class="swiper-slide"
+          <div class="swiper-slide swiper-slide-scale"
             style="background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd3355581e17e093caed_011.jpeg);">
             <div class="slider-card-bottom text-center">
               <div class="subtitle white">6 vacations</div>
               <h2 style="color: white; letter-spacing: 2px">Greece</h2>
             </div>
           </div>
-          <div class="swiper-slide"
+          <div class="swiper-slide swiper-slide-scale"
             style="background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd3ca4b006d82a3c6859_026.jpeg)">
             <div class="slider-card-bottom text-center">
               <div class="subtitle white">6 vacations</div>
@@ -320,10 +320,51 @@
       </div>
     </div>
   </div>
+
+  <div class="swiper1">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar1"></div>
+  </div>
+
   <!-- testimonial section -->
+
   <div class="testimonial-section">
     <div class="testimonial-overlay">
-      <div class="d-flex testimonial-wrapper">
+      <div style="color:#fff">hahaha</div>
+      <div class="swiper1">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination1"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <!-- <div class="d-flex testimonial-wrapper">
         <div class="testimonial-tracker">
           <div class="tracker-item">
             <div>1</div>
@@ -389,7 +430,8 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+
     </div>
   </div>
   <!-- membership section -->
@@ -643,7 +685,32 @@
     crossorigin="anonymous"></script>
   <script src="../JS/wlJourneys.js"></script>
   <script src="../swiper-7.4/swiper-bundle.js"></script>
+  <script>
+    const swiper1 = new Swiper('.swiper1', {
+      // Optional parameters
+      // direction: 'vertical',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination1',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar1',
+      },
+    });
+  </script>
   <script src="../swiper-7.4/slides-scale.js"></script>
+  <!-- <script src="../swiper-7.4/slides-testimonial.js"></script> -->
+
 </body>
 
 </html>
