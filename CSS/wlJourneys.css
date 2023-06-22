@@ -455,7 +455,11 @@ nav .nav-link {
   transform: scale(0.8);
   border-radius: 10px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 2s;
 }
+
 
 .swiper-slide-active,
 .swiper-slide-duplicate-active {
@@ -826,6 +830,12 @@ nav .nav-link {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.outline-button.white:hover {
+  transform: scale3d(1.05, 1.05, 1);
+  border-color: #fff;
+  background-color: rgba(8, 28, 58, 0);
 }
 
 .button.white {
