@@ -654,8 +654,9 @@ nav .nav-link {
   background-color: rgba(15, 19, 38, 0.55);
 }
 
-
-
+.testimonial-content {
+  padding: 0 200px
+}
 
 .testimonial-section .testimonial-wrapper {
   margin-left: 80px;
