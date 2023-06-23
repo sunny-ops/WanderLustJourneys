@@ -467,17 +467,6 @@ nav .nav-link {
   bottom: auto !important;
 }
 
-.swp1 {
-  /* height: 50px;
-  width: 50px; */
-  background-color: red;
-  position: absolute;
-  top: 0
-}
-
-.swp1:after {
-  content: "prev";
-}
 
 .swiper-slide-active,
 .swiper-slide-duplicate-active {
@@ -502,7 +491,7 @@ nav .nav-link {
   margin-right: 20px;
 }
 
-.slider-wrapper .slider-arrow {
+.slider-arrow {
   position: absolute;
   width: 60px;
   height: 60px;
