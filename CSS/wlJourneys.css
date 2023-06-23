@@ -516,9 +516,7 @@ nav .nav-link {
 }
 
 .swp1 {
-  background-color: red;
   position: absolute;
-  top: 0
 }
 
 .benefits {
@@ -655,7 +653,7 @@ nav .nav-link {
 }
 
 .testimonial-content {
-  padding: 0 200px
+  padding: 0 26%
 }
 
 .testimonial-section .testimonial-wrapper {
@@ -787,7 +785,7 @@ nav .nav-link {
   min-height: 300px;
   width: 400px;
   padding: 18px;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
   border-style: solid;
   border-width: 1px;
   border-color: rgba(192, 192, 211, 0.2);
