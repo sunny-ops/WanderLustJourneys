@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../swiper-7.4/swiper-bundle.css">
+    <style>
+        .swiper1,
+        .swiper2 {
+            width: 100%;
+            height: 400px;
+
+        }
+
+        .swiper-slide {
+            width: 600px;
+            height: 400px;
+            /* background-color: red; */
+        }
+
+        .swiper-pagination {
+            bottom: auto !important;
+        }
+
+        .swp2 {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slider1</div>
+            <div class="swiper-slide">Slider2</div>
+            <div class="swiper-slide">Slider3</div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container swiper2"> <!--自定义新增class:swiperOne js代码中使用类名-->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">ZS 1</div>
+            <div class="swiper-slide">ZS 2</div>
+            <div class="swiper-slide">ZS 3</div>
+            <div class="swiper-slide">ZS 4</div>
+            <div class="swiper-slide">ZS 5</div>
+        </div>
+        <div class="swiper-pagination swp2"></div> <!--自定义新增class:swpOne js代码中使用类名-->
+        <div class="swiper-button-prev swp2" style="position:absolute; top: 800px"></div>
+        <div class="swiper-button-next swp2" style="position:absolute; top: 800px"></div>
+    </div>
+
+    <script src="../swiper-7.4/swiper-bundle.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper1', {
+            // Optional parameters
+            // direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+    <script>
+        var mySwiper = new Swiper('.swiper2', {
+            //   direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination .swp2',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next .swp2',
+                prevEl: '.swiper-button-prev .swp2',
+            },
+            // 页面显示几张图片
+            slidesPerView: 3,
+            // 两个slide之间的间距
+            spaceBetween: 10,
+            // 主slide在中间
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // 如果需要滚动条
+            //   scrollbar: {
+            //     el: '.swiper-scrollbar',
+            //   },
+        })        
+    </script>
+</body>
+
+</html>
