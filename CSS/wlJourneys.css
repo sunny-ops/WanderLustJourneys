@@ -15,6 +15,10 @@ body {
   /* overflow: hidden; */
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 @font-face {
   font-family: "Eudoxussans";
   src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
@@ -507,6 +511,8 @@ nav .nav-link {
 .swiper1 {
   height: 300px;
   position: relative;
+  background-color: transparent;
+  /* color: #fff */
 }
 
 .swp1 {
@@ -626,7 +632,6 @@ nav .nav-link {
 }
 
 .testimonial-section {
-  margin-top: 200px;
   background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6074ef622e17622ba2a018a4_Villa0017.jpeg);
   background-size: cover;
   background-repeat: no-repeat;

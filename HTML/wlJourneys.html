@@ -323,7 +323,7 @@
 
 
   <!-- testimonial section -->
-  <div class="swiper-container swiper1">
+  <!-- <div class="swiper-container swiper1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slider1</div>
       <div class="swiper-slide">Slider2</div>
@@ -346,79 +346,34 @@
           loading="lazy" alt="" class="slider-arrow-icon" />
       </div>
     </div>
-
-  </div>
+  </div> -->
 
   <div class="testimonial-section">
     <div class="testimonial-overlay">
-      <!-- <div class="d-flex testimonial-wrapper">
-        <div class="testimonial-tracker">
-          <div class="tracker-item">
-            <div>1</div>
-            <div class="tracker-fill" style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "></div>
-          </div>
-          <div class="tracker-item">
-            <div>2</div>
-            <div class="tracker-fill" style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "></div>
-          </div>
-          <div class="tracker-item">
-            <div>3</div>
-            <div class="tracker-fill" style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "></div>
-          </div>
-          <div class="tracker-item">
-            <div>4</div>
-            <div class="tracker-fill" style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "></div>
-          </div>
-          <div class="tracker-item">
-            <div>5</div>
-            <div class="tracker-fill" style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "></div>
-          </div>
+      <div class="swiper-container swiper1">
+        <div class="swiper-wrapper" style="transition:2s">
+          <div class="swiper-slide text-white bg-transparent">Slider1</div>
+          <div class="swiper-slide text-white bg-transparent">Slider2</div>
+          <div class="swiper-slide text-white bg-transparent">Slider3</div>
         </div>
-        <div style="flex-grow: 1">
-          <div class="testimonial-mask">
-            <div class="body-display large mt-3 mb-5 text-light">
-              Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec
-              ac neque. Sed vitae sollicitudin elit, ac tristique nisi.
-              Pellentesque rutrum egestas massa lacinia volutpat. Integer et
-              facilisis elit, vitae lobortis enim.
-            </div>
-            <h3 class="mb-5 text-light">Samantha Vohnhale</h3>
-            <div class="d-flex justify-content-center">
-              <div class="testimonial-arrow w-slider-arrow-left">
-                <img
-                  src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6078a246a9b7d42719a6708f_arrow-left(24x24)%402x%20(1).svg"
-                  loading="lazy" alt="" class="slider-arrow-icon" />
-              </div>
-              <div class="testimonial-arrow right w-slider-arrow-right">
-                <img
-                  src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6078a23053127e30625b981a_arrow-right(24x24)%402x%20(1).svg"
-                  loading="lazy" alt="" class="slider-arrow-icon" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
+        <div class="swiper-pagination" style="bottom: 10px!important"></div>
+
+        <div class="swiper-button-prev swp1">
+          <div class="slider-arrow w-slider-arrow-left d-flex justify-content-center" id="slider-left">
+            <img
+              src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6078a246a9b7d42719a6708f_arrow-left(24x24)%402x%20(1).svg"
+              loading="lazy" alt="" class="slider-arrow-icon" />
+          </div>
+        </div>
+        <div class="swiper-button-next swp1">
+          <div class="slider-arrow right w-slider-arrow-right d-flex justify-content-center" id="slider-right">
+            <img
+              src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6078a23053127e30625b981a_arrow-right(24x24)%402x%20(1).svg"
+              loading="lazy" alt="" class="slider-arrow-icon" />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- membership section -->
@@ -672,31 +627,9 @@
     crossorigin="anonymous"></script>
   <script src="../JS/wlJourneys.js"></script>
   <script src="../swiper-7.4/swiper-bundle.js"></script>
-  <script>
-    const swiper1 = new Swiper('.swiper1', {
-      // Optional parameters
-      // direction: 'vertical',
-      loop: true,
 
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-    });
-  </script>
   <script src="../swiper-7.4/slides-scale.js"></script>
-  <!-- <script src="../swiper-7.4/slides-testimonial.js"></script> -->
+  <script src="../swiper-7.4/slides-testimonial.js"></script>
 
 </body>
 

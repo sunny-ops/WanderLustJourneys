@@ -1,21 +1,21 @@
-const swiper = new Swiper('.swiper-testimonial', {
+const swiper1 = new Swiper('.swiper1', {
     // Optional parameters
     // direction: 'vertical',
     loop: true,
 
     // If we need pagination
     pagination: {
-        el: '.swiper-pagination1',
+        el: '.swiper-pagination',
     },
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next1',
-        prevEl: '.swiper-button-prev1',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
 
     // And if we need scrollbar
     scrollbar: {
-        el: '.swiper-scrollbar1',
+        el: '.swiper-scrollbar',
     },
 });
