@@ -732,18 +732,24 @@ nav .nav-link {
 
 .vacations-tab-menu {
   position: relative;
-  padding-bottom: 36px;
+
   color: #516381;
   font-size: 12px;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 50px;
+
+}
+
+.membership-wrapper {
+  padding-bottom: 36px;
   border-bottom: 3px solid #e6e6f3;
+  position: relative;
 }
 
 .membership-circle {
   position: absolute;
-  left: auto;
+  left: 42%;
   top: auto;
   right: auto;
   top: 33px;
