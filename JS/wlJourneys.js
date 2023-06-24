@@ -34,15 +34,16 @@ var verticalImgs = document.getElementsByClassName("vacation-image");
 var cardLocs = document.getElementsByClassName("card-location")
 var cardPrices = document.getElementsByClassName("dynamic-price-text");
 var membershipDots = document.getElementsByClassName("membership-dot");
-var membershipOutlineCircle = document.getElementsByClassName("membership-outline-circle")
+var membershipOutlineCircle = document.getElementsByClassName("membership-outline-circle");
+var membershipWrapper = document.getElementsByClassName("membership-wrapper");
 var egyptCircle = document.getElementById("egypt-circle");
 var graceCircle = document.getElementById("grace-circle");
 var indonesiaCircle = document.getElementById("indonesia-circle");
 var franceCircle = document.getElementById("france-circle");
 graceCircle.onclick = () => {
   // console.log(membershipDots);
-  console.log(cardLocs);
-  console.log(cardPrices);
+  // console.log(cardLocs);
+  // console.log(cardPrices);
   verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcee44ed8fe667ad63e34_013.jpeg");
   verticalImgs[1].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dceb50894ded296b2297d_019.jpeg");
   verticalImgs[2].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd3355581e17e093caed_011.jpeg");
@@ -56,12 +57,13 @@ graceCircle.onclick = () => {
   membershipOutlineCircle[1].style.display = "block";
   for (let i = 0; i < 4; i++) {
     if (i != 1) {
-      membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
       membershipOutlineCircle[i].style.display = "none";
-    } else {
-      membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
+    } else if (i == 1) {
       membershipOutlineCircle[1].style.display = "block";
     }
+    if (i <= 1) {
+      membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
+      membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
+    }
   }
-
 }
