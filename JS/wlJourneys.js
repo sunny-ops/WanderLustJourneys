@@ -53,22 +53,21 @@ graceCircle.onclick = () => {
   cardPrices[0].innerHTML = "<div>$ 5600</div>";
   cardPrices[1].innerHTML = "<div>$ 2800</div>";
   cardPrices[2].innerHTML = "<div>$ 6700</div>";
-  membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
-  membershipOutlineCircle[1].style.display = "block";
-  for (let i = 0; i < 4; i++) {
-    if (i != 1) {
-      membershipOutlineCircle[i].style.display = "none";
-    } else if (i == 1) {
-      membershipOutlineCircle[i].style.display = "block";
-    }
-    if (i <= 1) {
-      membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
-      membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
-    } else if (i > 1) {
-      membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
-      membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
-    }
-  }
+  changeDots(1);
+  // for (let i = 0; i < 4; i++) {
+  //   if (i != 1) {
+  //     membershipOutlineCircle[i].style.display = "none";
+  //   } else if (i == 1) {
+  //     membershipOutlineCircle[i].style.display = "block";
+  //   }
+  //   if (i <= 1) {
+  //     membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
+  //     membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
+  //   } else if (i > 1) {
+  //     membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
+  //     membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
+  //   }
+  // }
 }
 
 egyptCircle.onclick = () => {
@@ -81,18 +80,46 @@ egyptCircle.onclick = () => {
   cardPrices[0].innerHTML = "<div>$ 6400</div>";
   cardPrices[1].innerHTML = "<div>$ 7700</div>";
   cardPrices[2].innerHTML = "<div>$ 5300</div>";
-  membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
-  membershipOutlineCircle[1].style.display = "block";
+  changeDots(0)
+}
+
+indonesiaCircle.onclick = () => {
+  verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd099bae3eb2843495ff1_034.jpeg");
+  verticalImgs[1].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd099bae3eb0eaf495fc9_035.jpeg");
+  verticalImgs[2].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd0b068e13e9e0a4aa1e0_036.jpeg");
+  cardLocs[0].innerText = "Canggu";
+  cardLocs[1].innerText = "Komodo";
+  cardLocs[2].innerText = "Penida Island";
+  cardPrices[0].innerHTML = "<div>$ 6500</div>";
+  cardPrices[1].innerHTML = "<div>$ 7600</div>";
+  cardPrices[2].innerHTML = "<div>$ 2800</div>";
+  changeDots(2)
+}
+
+franceCircle.onclick = () => {
+  verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd1ef1d9b0b767714525_001.jpeg");
+  verticalImgs[1].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5d6a5c000c4f1cf28e_005.jpeg");
+  verticalImgs[2].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd73bae3eb8d1e477694_004.jpeg");
+  cardLocs[0].innerText = "Bonifacio";
+  cardLocs[1].innerText = "Brittany";
+  cardLocs[2].innerText = "Carcassonne";
+  cardPrices[0].innerHTML = "<div>$ 1400</div>";
+  cardPrices[1].innerHTML = "<div>$ 3600</div>";
+  cardPrices[2].innerHTML = "<div>$ 3900</div>";
+  changeDots(3)
+}
+
+changeDots = (index) => {
   for (let i = 0; i < 4; i++) {
-    if (i != 0) {
+    if (i != index) {
       membershipOutlineCircle[i].style.display = "none";
-    } else if (i == 0) {
+    } else if (i == index) {
       membershipOutlineCircle[i].style.display = "block";
     }
-    if (i <= 0) {
+    if (i <= index) {
       membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
       membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
-    } else if (i > 0) {
+    } else if (i > index) {
       membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
       membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
     }
