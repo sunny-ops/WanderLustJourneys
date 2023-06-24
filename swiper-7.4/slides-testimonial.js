@@ -18,4 +18,8 @@ const swiper1 = new Swiper('.swiper1', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+
 });
+setInterval(function () {
+    swiper.slideNext(); // 切换到下一个幻灯片
+}, 5000);
