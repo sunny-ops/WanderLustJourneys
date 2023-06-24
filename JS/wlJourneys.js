@@ -32,7 +32,7 @@ window.onscroll = () => {
 // membership section
 var verticalImgs = document.getElementsByClassName("vacation-image");
 var cardLocs = document.getElementsByClassName("card-location")
-var cardPrices = document.getElementsByClassName("card-price");
+var cardPrices = document.getElementsByClassName("dynamic-price-text");
 var membershipDots = document.getElementsByClassName("membership-dot");
 var membershipOutlineCircle = document.getElementsByClassName("membership-outline-circle")
 var egyptCircle = document.getElementById("egypt-circle");
@@ -40,8 +40,18 @@ var graceCircle = document.getElementById("grace-circle");
 var indonesiaCircle = document.getElementById("indonesia-circle");
 var franceCircle = document.getElementById("france-circle");
 graceCircle.onclick = () => {
-  console.log(membershipDots);
-  verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcee44ed8fe667ad63e34_013.jpeg")
+  // console.log(membershipDots);
+  console.log(cardLocs);
+  console.log(cardPrices);
+  verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcee44ed8fe667ad63e34_013.jpeg");
+  verticalImgs[1].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dceb50894ded296b2297d_019.jpeg");
+  verticalImgs[2].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd3355581e17e093caed_011.jpeg");
+  cardLocs[0].innerText = "Palaiokastritsa";
+  cardLocs[1].innerText = "Meteora";
+  cardLocs[2].innerText = "Thessaloniki";
+  cardPrices[0].innerHTML = "<div>$ 5600</div>";
+  cardPrices[1].innerHTML = "<div>$ 2800</div>";
+  cardPrices[2].innerHTML = "<div>$ 6700</div>";
   membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
   membershipOutlineCircle[1].style.display = "block";
   for (let i = 0; i < 4; i++) {
