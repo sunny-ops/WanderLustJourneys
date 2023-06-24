@@ -59,11 +59,42 @@ graceCircle.onclick = () => {
     if (i != 1) {
       membershipOutlineCircle[i].style.display = "none";
     } else if (i == 1) {
-      membershipOutlineCircle[1].style.display = "block";
+      membershipOutlineCircle[i].style.display = "block";
     }
     if (i <= 1) {
       membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
-      membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
+      membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
+    } else if (i > 1) {
+      membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
+      membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
+    }
+  }
+}
+
+egyptCircle.onclick = () => {
+  verticalImgs[0].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd011e021d45c28b27a10_021.jpeg");
+  verticalImgs[1].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd011e021d4d191b27a11_022.jpeg");
+  verticalImgs[2].setAttribute("src", "https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd02d03615176c83d10e5_024.jpeg");
+  cardLocs[0].innerText = "Bahariya Oasis";
+  cardLocs[1].innerText = "Sahl Hasheesh";
+  cardLocs[2].innerText = "Alexandria";
+  cardPrices[0].innerHTML = "<div>$ 6400</div>";
+  cardPrices[1].innerHTML = "<div>$ 7700</div>";
+  cardPrices[2].innerHTML = "<div>$ 5300</div>";
+  membershipDots[1].style.backgroundColor = "rgb(8, 28, 58)";
+  membershipOutlineCircle[1].style.display = "block";
+  for (let i = 0; i < 4; i++) {
+    if (i != 0) {
+      membershipOutlineCircle[i].style.display = "none";
+    } else if (i == 0) {
+      membershipOutlineCircle[i].style.display = "block";
+    }
+    if (i <= 0) {
+      membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
+      membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
+    } else if (i > 0) {
+      membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
+      membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
     }
   }
 }
