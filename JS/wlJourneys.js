@@ -2,9 +2,6 @@
 var openEl = document.getElementsByClassName("open")[0];
 var topEl = document.getElementsByClassName("top")[0];
 var bottomEl = document.getElementsByClassName("bottom")[0];
-// console.log(openEl);
-// console.log(topEl);
-// console.log(bottomEl);
 window.onload = () => {
   topEl.style.top = `${-window.innerHeight * 0.5}px`;
   bottomEl.style.bottom = `${-window.innerHeight * 0.5}px`;
