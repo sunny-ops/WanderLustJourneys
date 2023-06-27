@@ -31,12 +31,20 @@ var verticalImgs = document.getElementsByClassName("vacation-image");
 var cardLocs = document.getElementsByClassName("card-location")
 var cardPrices = document.getElementsByClassName("dynamic-price-text");
 var membershipDots = document.getElementsByClassName("membership-dot");
-var membershipOutlineCircle = document.getElementsByClassName("membership-outline-circle");
+// var membershipOutlineCircle = document.getElementsByClassName("membership-outline-circle");
+var membershipOutlineCircle = document.querySelectorAll(".membership-outline-circle")
 var membershipWrapper = document.getElementsByClassName("membership-wrapper");
 var egyptCircle = document.getElementById("egypt-circle");
 var graceCircle = document.getElementById("grace-circle");
 var indonesiaCircle = document.getElementById("indonesia-circle");
 var franceCircle = document.getElementById("france-circle");
+var line = document.querySelector(".vacation-line");
+console.log(membershipOutlineCircle);
+// membershipOutlineCircle.forEach((v) => {
+//   console.log("haha");
+//   console.log(v);
+// })
+
 graceCircle.onclick = () => {
   // console.log(membershipDots);
   // console.log(cardLocs);
@@ -108,17 +116,18 @@ franceCircle.onclick = () => {
 
 changeDots = (index) => {
   for (let i = 0; i < 4; i++) {
-    if (i != index) {
-      membershipOutlineCircle[i].style.display = "none";
-    } else if (i == index) {
-      membershipOutlineCircle[i].style.display = "block";
-    }
+    membershipOutlineCircle[i].style.width = "12px";
+    membershipOutlineCircle[i].style.height = "12px";
+    membershipOutlineCircle[i].style.border = "0px solid #fff";
+    membershipDots[i].style.backgroundColor = "#e6e6f3";
     if (i <= index) {
-      membershipWrapper[i].style.borderBottomColor = "rgb(8, 28, 58)";
       membershipDots[i].style.backgroundColor = "rgb(8, 28, 58)";
-    } else if (i > index) {
-      membershipWrapper[i].style.borderBottomColor = "#e6e6f3";
-      membershipDots[i].style.backgroundColor = "rgb(230, 230, 243)";
     }
   }
+  membershipOutlineCircle[index].style.border = '2px solid rgb(8, 28, 58)'
+  membershipOutlineCircle[index].style.width = "42px";
+  membershipOutlineCircle[index].style.height = "42px";
+  membershipOutlineCircle[index].style.backgroundColor = "rgb(255, 255, 255)";
+  line.style.width = `${25 * (index + 1)}%`;
 }
+
