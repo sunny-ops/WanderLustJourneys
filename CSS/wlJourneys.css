@@ -263,6 +263,7 @@ nav .nav-right {
   flex-grow: 1;
   justify-content: space-between;
   z-index: 10;
+  margin-right: 10%;
 }
 
 nav .nav-right .brand {
@@ -339,7 +340,7 @@ nav .nav-link {
   margin: 0 atuo;
   /* z-index: 50; */
   margin-left: 80px;
-  padding-right: 80px;
+  padding-right: 18%;
 }
 
 .home-hero .grid-wrapper {
