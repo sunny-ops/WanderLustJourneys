@@ -9,6 +9,11 @@ body {
   color: #081c3a;
 }
 
+a {
+  color: inherit; /* 这将使链接的颜色与其父元素的颜色相同 */
+  text-decoration: none; /* 这将去除链接的下划线 */
+}
+
 .slider-wrapper .swiper {
   width: 100%;
   height: 475px;
