@@ -1005,7 +1005,8 @@ nav .nav-link {
   position: relative;
   top: -50px;
   padding: 50px 50px 0px;
-  margin: 0 20%;
+  margin: 0 auto;
+  width: 1320px;
   border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
