@@ -149,6 +149,7 @@ img {
   background-color: rgba(192, 192, 211, 0.2);
   align-self: stretch;
   justify-self: center;
+  position: relative;
 }
 
 .indicator-fill {
@@ -164,6 +165,9 @@ img {
   height: 20%;
   border-radius: 100px;
   background-color: #d2d2e0;
+  background-color: red;
+  position: absolute;
+  top: 0;
 }
 
 .social-sidebar-icons {
