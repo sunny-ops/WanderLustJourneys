@@ -10,6 +10,9 @@ window.onload = () => {
   }, 2000);
 };
 
+var scrollIndicator = document.querySelector(".indicator");
+console.log(scrollIndicator);
+
 // navbar scroll
 var scrollDiv = document.querySelector(".scroll-div");
 var navRight = document.querySelector(".nav-right");
@@ -17,6 +20,7 @@ var brand = document.querySelector(".brand");
 var destinations = document.querySelector(".destinations");
 window.onscroll = () => {
   // console.log(window.scrollY);
+  scrollIndicator.style.top = `${(window.scrollY * 80) / 1881.5}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
   scrollDiv.style.top = `${window.scrollY / 5 - 80}px`;
