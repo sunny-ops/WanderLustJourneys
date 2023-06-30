@@ -1172,6 +1172,25 @@ nav .nav-link {
   height: 82px;
 }
 
+.footer-item {
+  border-radius: 5px;
+}
+
+.footer-outline {
+  margin: 9px 22px;
+}
+.footer-outline:hover {
+  background-color: #f7f8fc;
+  padding: 9px 22px;
+  transition: 2s;
+  margin: 0 0;
+}
+
+/* .foot-outline:hover {
+  outline: 5px solid #f7f8fc;
+  transition: 2s;
+} */
+
 .footer-logo {
   font-size: 24px;
   font-weight: 700;
