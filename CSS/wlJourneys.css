@@ -1093,9 +1093,6 @@ nav .nav-link {
 }
 
 .journal-list-item {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 40px;
@@ -1106,6 +1103,10 @@ nav .nav-link {
   text-decoration: none;
 }
 
+.journal-list-item:hover {
+  transition: 2s;
+  transform: scale3d(1.05, 1.05, 1);
+}
 .journal-list-image {
   width: 100%;
   height: 142px;
