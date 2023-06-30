@@ -655,19 +655,18 @@ nav .nav-link {
   height: 26px;
 }
 
-.testimonial-section {
+.testimonial-background {
   background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6074ef622e17622ba2a018a4_Villa0017.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  transition-duration: 2s;
+  /* transition-duration: 2s; */
 }
 
-.testimonial-section:hover {
-  /* transform-style: preserve-3d; */
-  transition-duration: 2s;
-  background-size: 105%;
+.testimonial-background:hover {
+  transition: 1s;
+  transform: scale3d(1.03, 1.03, 1);
 }
 
 .testimonial-section .testimonial-overlay {
