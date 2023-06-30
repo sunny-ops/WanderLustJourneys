@@ -13,6 +13,9 @@ a {
   color: inherit; /* 这将使链接的颜色与其父元素的颜色相同 */
   text-decoration: none; /* 这将去除链接的下划线 */
 }
+a:hover {
+  color: inherit;
+}
 
 .slider-wrapper .swiper {
   width: 100%;
@@ -267,7 +270,7 @@ nav .menu-lottie {
 nav .nav-right {
   flex-grow: 1;
   justify-content: space-between;
-  z-index: 10;
+  /* z-index: 10; */
   margin-right: 10%;
 }
 
@@ -309,6 +312,20 @@ nav .nav-link {
   text-transform: uppercase;
 }
 
+.nav-link-cover {
+  margin: 0.5rem 1.5rem;
+  padding: 0 0 !important;
+  border-radius: 5px;
+}
+
+.nav-link-cover:hover {
+  padding: 0.5rem 1.5rem !important;
+  margin: 0 0;
+  background-color: #f7f8fc;
+  transition: 1s;
+  color: inherit;
+}
+
 .dropdown-lottie {
   width: 14px;
   margin-left: 9px;
@@ -345,7 +362,6 @@ nav .nav-link {
   height: 100%;
   background-color: #fff;
   margin: 0 atuo;
-  /* z-index: 50; */
   margin-left: 80px;
   padding-right: 18%;
 }
@@ -407,13 +423,13 @@ nav .nav-link {
   border-width: 1px;
   border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6)
     hsla(0, 0%, 100%, 0.6);
-  border-radius: 0px;
+  border-radius: 5px;
   background-color: #fff;
 }
 
 .featured-location-icon {
   display: flex;
-  width: 100px;
+  width: 140px;
   justify-content: center;
   align-items: center;
   background-color: #fff;
