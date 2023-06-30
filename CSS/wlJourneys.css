@@ -521,6 +521,7 @@ nav .nav-link {
 .swiper-background:hover {
   transition: 2s;
   transform: scale3d(1.1, 1.1, 1);
+  cursor: pointer;
 }
 
 .swiper-pagination {
@@ -658,6 +659,7 @@ nav .nav-link {
   /* border: 2px solid rgba(192, 192, 211, 0.2); */
   background-color: #fff;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .section .right-border {
@@ -821,9 +823,11 @@ nav .nav-link {
   height: 42px;
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(255, 255, 255); */
 }
 
+.membership-circle:hover {
+  cursor: pointer;
+}
 .membership-dot {
   /* position: relative; */
   /* z-index: 10; */
@@ -860,6 +864,7 @@ nav .nav-link {
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   transition: 2s;
+  cursor: pointer;
 }
 
 .verticle-card-image {
@@ -1135,6 +1140,7 @@ nav .nav-link {
 .journal-list-item:hover {
   transition: 2s;
   transform: scale3d(1.05, 1.05, 1);
+  cursor: pointer;
 }
 .journal-list-image {
   width: 100%;
@@ -1200,6 +1206,7 @@ nav .nav-link {
   padding: 9px 22px;
   transition: 2s;
   margin: 0 0;
+  cursor: pointer;
 }
 
 /* .foot-outline:hover {
