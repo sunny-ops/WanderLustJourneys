@@ -1028,11 +1028,22 @@ nav .nav-link {
 }
 
 .journal-left {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.journal-left-background {
   background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcc73e99d454e25eb062b_post001.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 5px;
+  width: inherit;
+  height: 696px;
+}
+.journal-left-background:hover {
+  transition: 2s;
+  transform: scale3d(1.05, 1.05, 1);
 }
 
 .journal-post-info {
