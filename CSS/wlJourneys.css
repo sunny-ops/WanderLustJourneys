@@ -340,6 +340,7 @@ nav .nav-link {
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(15, 19, 38, 0.55);
+  transition: all 2s;
 }
 
 .overlay {
@@ -425,6 +426,7 @@ nav .nav-link {
     hsla(0, 0%, 100%, 0.6);
   border-radius: 5px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .featured-location-icon {
