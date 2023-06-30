@@ -14,6 +14,8 @@ window.onload = () => {
 var homeHero = document.getElementsByClassName("home-hero")[0];
 var arrowLeft = document.querySelector(".w-slider-arrow-right");
 var arrowRight = document.querySelector(".w-slider-arrow-left");
+var featuredLocation = document.querySelectorAll(".featured-location");
+
 let i = 0;
 console.log(arrowLeft);
 var mapBcimg = new Map();
@@ -32,12 +34,20 @@ mapBcimg.set(
 arrowLeft.onclick = () => {
   i = (i + 1) % 3;
   homeHero.style.backgroundImage = `url(${mapBcimg.get(i)})`;
+  featuredLocation.forEach((v, i) => {
+    v.style.display = "none";
+  });
+  featuredLocation[i].style.display = "flex";
 };
 arrowRight.onclick = () => {
   i--;
   if (i < 0) {
     i = 2;
   }
+  featuredLocation.forEach((v, i) => {
+    v.style.display = "none";
+  });
+  featuredLocation[i].style.display = "flex";
   homeHero.style.backgroundImage = `url(${mapBcimg.get(i)})`;
 };
 

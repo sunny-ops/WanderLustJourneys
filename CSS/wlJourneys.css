@@ -391,8 +391,8 @@ nav .nav-link {
 }
 
 .featured-location {
-  display: -ms-grid;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 360px;
   padding: 36px;
   align-content: center;
@@ -404,6 +404,7 @@ nav .nav-link {
   background-color: #f7f8fc;
   color: #081c3a;
   text-decoration: none;
+  transform: all 2s;
 }
 
 .featured-icon {
