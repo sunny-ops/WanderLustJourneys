@@ -487,10 +487,24 @@ nav .nav-link {
 .swiper-slide-scale {
   transform: scale(0.8);
   border-radius: 10px;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 2s; */
+  overflow: hidden;
+}
+
+.swiper-background {
+  border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transition: 2s;
+}
+
+.swiper-background:hover {
+  transition: 2s;
+  transform: scale3d(1.1, 1.1, 1);
 }
 
 .swiper-pagination {
