@@ -400,6 +400,37 @@ nav .nav-link {
   position: relative;
 }
 
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+
+.slider-wrapper .w-slider-arrow-left {
+  margin-left: 20px;
+}
+
+.slider-wrapper .w-slider-arrow-right {
+  margin-right: 20px;
+}
+
+.slider-arrow {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efeff7;
+  border-radius: 100px;
+  background-color: #fff;
+}
+
 .featured-vacation-info {
   position: absolute;
   left: 80px;
