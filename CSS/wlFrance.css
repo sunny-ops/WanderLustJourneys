@@ -330,9 +330,11 @@ nav .nav-link {
 
 .overlay {
   position: relative;
-  width: 100vw;
+  width: inherit;
+  height: inherit;
+  /* width: 100vw;
   height: 700px;
-  overflow: hidden;
+  overflow: hidden; */
   left: 0%;
   top: 0%;
   right: 0%;
@@ -373,10 +375,11 @@ nav .nav-link {
 .vacation-sticky {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5e6a5c00a1331cf28f_002.jpeg);
+  /* background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5e6a5c00a1331cf28f_002.jpeg); */
   position: sticky;
   top: 0;
   height: 100vh;
+  overflow: hidden;
 }
 
 .vacation-results {
