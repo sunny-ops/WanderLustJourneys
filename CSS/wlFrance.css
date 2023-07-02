@@ -397,13 +397,13 @@ nav .nav-link {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.featured-vacation-info {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
 }
 
 .vacation-results {
@@ -900,8 +900,9 @@ label {
 }
 
 .button {
+  width: 60%;
   display: flex;
-  padding: 16px 32px;
+  padding: 16px 16px;
   justify-content: center;
   align-items: center;
   border-style: none;
