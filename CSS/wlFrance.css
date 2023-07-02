@@ -294,7 +294,7 @@ nav .nav-right .destinations {
   border: 1px solid rgba(192, 192, 211, 0.2);
   border-radius: 3px;
   background-color: hsla(0, 0%, 100%, 0);
-  color: #fff;
+  color: #222222;
   font-size: 11px;
   letter-spacing: 3px;
   text-decoration: none;
@@ -318,13 +318,8 @@ nav .nav-link {
 
 .home-hero {
   width: 100vw;
-  /* height: 100vh; */
-  height: 4500px;
-  background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607503213f245d75fcd95368_Travel002.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-color: rgba(15, 19, 38, 0.55);
+  height: 100vh;
+  /* height: 4500px; */
 }
 
 .overlay {
@@ -352,9 +347,11 @@ nav .nav-link {
 }
 
 .home-hero .grid-wrapper {
-  width: 1300px;
+  width: inherit;
+  height: inherit;
   margin: 0 auto;
-  margin-top: 400px;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
 }
 
 .home-hero .subtitle-intro-wrapper {
