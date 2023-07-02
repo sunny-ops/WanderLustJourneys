@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../CSS/wlFrance.css" />
+    <link rel="stylesheet" href="../swiper-7.4/swiper-bundle.css" />
   </head>
 
   <body>
@@ -178,7 +179,20 @@
       <div class="grid-wrapper">
         <div class="vacation-sticky">
           <div class="overlay">
-            <div>haha</div>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  style="
+                    background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5e6a5c00a1331cf28f_002.jpeg);
+                  "
+                ></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
           </div>
         </div>
         <div class="vacation-results">
@@ -340,6 +354,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="../JS/wlFrance.js"></script>
+    <script src="../swiper-7.4/swiper-bundle.js"></script>
     <script src="../swiper-7.4/slides-location.js"></script>
   </body>
 </html>

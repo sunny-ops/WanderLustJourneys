@@ -381,6 +381,30 @@ nav .nav-link {
   height: 100vh;
   overflow: hidden;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5e6a5c00a1331cf28f_002.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .vacation-results {
   margin-top: 128px;
