@@ -318,7 +318,8 @@ nav .nav-link {
 
 .home-hero {
   width: 100vw;
-  height: 700px;
+  /* height: 100vh; */
+  height: 4500px;
   background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607503213f245d75fcd95368_Travel002.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -361,7 +362,7 @@ nav .nav-link {
 }
 
 .home-hero .wrapper {
-  height: 700px;
+  height: 100%;
 }
 
 .slider-bottom {
@@ -932,6 +933,26 @@ label {
   height: 82px;
 }
 
+.footer-item {
+  border-radius: 5px;
+}
+
+.footer-outline {
+  margin: 9px 22px;
+}
+.footer-outline:hover {
+  background-color: #f7f8fc;
+  padding: 9px 22px;
+  transition: 2s;
+  margin: 0 0;
+  cursor: pointer;
+}
+
+/* .foot-outline:hover {
+    outline: 5px solid #f7f8fc;
+    transition: 2s;
+  } */
+
 .footer-logo {
   font-size: 24px;
   font-weight: 700;
@@ -962,5 +983,6 @@ label {
 @media screen and (min-width: 1280px) {
   .team-image {
     min-height: 275px;
+    width: 270px;
   }
 }
