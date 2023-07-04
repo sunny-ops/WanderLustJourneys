@@ -440,7 +440,7 @@ nav .nav-link {
 .vacation-results {
   margin-top: 128px;
   /* overflow: scroll; */
-  margin-right: 22%;
+  margin-right: 25%;
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -450,6 +450,7 @@ nav .nav-link {
   display: flex;
   flex-direction: column;
   gap: 36px;
+  /* margin-bottom: 36px; */
 }
 .vacation-item {
   display: grid;
@@ -474,6 +475,8 @@ nav .nav-link {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 240px;
+  border-radius: 10px;
 }
 
 .slider-bottom {
@@ -905,12 +908,6 @@ label {
   padding-left: 12px;
 }
 
-.vacation-image {
-  width: 360px;
-  height: 240px;
-  border-radius: 10px;
-}
-
 /* contact-section */
 .contact-section {
   margin-left: 80px;
@@ -1038,6 +1035,9 @@ label {
   padding-right: 116px;
   padding-top: 48px;
   padding-bottom: 12px;
+  border-top-color: rgba(192, 192, 211, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
 }
 
 .footer-wrapper {
