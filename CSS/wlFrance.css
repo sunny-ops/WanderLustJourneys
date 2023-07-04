@@ -499,6 +499,16 @@ nav .nav-link {
   padding: 24px 24px;
 }
 
+.location-card:hover {
+  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 2s;
+  transform: scale3d(1.05, 1.05, 1);
+  color: white !important;
+}
+
 h4 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -523,7 +533,6 @@ h4 {
   border-width: 1px;
   border-color: #fff;
   border-radius: 100px;
-  background-color: red;
 }
 
 .slider-bottom {
