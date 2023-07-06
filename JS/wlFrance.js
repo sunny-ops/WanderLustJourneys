@@ -24,9 +24,9 @@ window.onscroll = () => {
   scrollIndicator.style.top = `${(window.scrollY * 80) / 1877}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
-  scrollDiv.style.top = `${window.scrollY - 80}px`;
+  scrollDiv.style.top = `${window.scrollY / 3 - 80}px`;
   //   console.log(scrollDiv.style.top);
-  if (window.scrollY > 80) {
+  if (window.scrollY > 240) {
     scrollDiv.style.top = "0px";
   }
 };

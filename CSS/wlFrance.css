@@ -278,7 +278,7 @@ nav .menu-lottie {
 nav .nav-right {
   flex-grow: 1;
   justify-content: space-between;
-  z-index: 10;
+  /* z-index: 10; */
   margin-right: 10%;
 }
 
@@ -308,6 +308,15 @@ nav .nav-right .destinations {
   text-transform: uppercase;
 }
 
+/* nav .nav-link {
+  border-bottom: 2px none rgba(15, 19, 38, 0);
+  color: #081c3a;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+} */
 nav .nav-link {
   border-bottom: 2px none rgba(15, 19, 38, 0);
   color: #081c3a;
@@ -316,6 +325,20 @@ nav .nav-link {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.nav-link-cover {
+  margin: 0.5rem 1.5rem;
+  padding: 0 0 !important;
+  border-radius: 5px;
+}
+
+.nav-link-cover:hover {
+  padding: 0.5rem 1.5rem !important;
+  margin: 0 0;
+  background-color: #f7f8fc;
+  transition: 1s;
+  color: inherit;
 }
 
 .dropdown-lottie {
