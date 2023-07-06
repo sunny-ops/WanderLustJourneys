@@ -490,6 +490,8 @@ nav .nav-link {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 16px;
   grid-row-gap: 18px;
+  padding-bottom: 80px;
+
 }
 
 .location-card {
@@ -511,7 +513,7 @@ nav .nav-link {
   background-position: center;
   background-repeat: no-repeat;
   transition: 1s;
-  transform: scale3d(1.08, 1.08, 1);
+  transform: scale3d(1.07, 1.07, 1);
 }
 
 

@@ -21,7 +21,7 @@ var brand = document.querySelector(".brand");
 var destinations = document.querySelector(".destinations");
 window.onscroll = () => {
   //   console.log(window.scrollY);
-  scrollIndicator.style.top = `${(window.scrollY * 80) / 6432.5}%`;
+  scrollIndicator.style.top = `${(window.scrollY * 80) / 1877}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
   scrollDiv.style.top = `${window.scrollY - 80}px`;
