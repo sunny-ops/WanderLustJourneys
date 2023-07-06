@@ -30,3 +30,5 @@ window.onscroll = () => {
     scrollDiv.style.top = "0px";
   }
 };
+
+// location-card hover

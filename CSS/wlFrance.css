@@ -496,17 +496,29 @@ nav .nav-link {
   border-color: rgba(192, 192, 211, 0.2);
   border-radius: 4px;
   background-color: transparent;
-  padding: 24px 24px;
+  padding: 30px 24px;
 }
 
 .location-card:hover {
-  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg");
+  /* background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: 2s;
-  transform: scale3d(1.05, 1.05, 1);
-  color: white !important;
+  transition: 1s;
+  transform: scale3d(1.08, 1.08, 1);
+}
+
+.location-indonesia:hover {
+  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg");
+}
+
+.location-egypt:hover {
+  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd011e021d4678eb27a0f_020.jpeg");
+}
+
+.location-card:hover h4,
+.location-card:hover .subtitle {
+  color: white;
 }
 
 h4 {
