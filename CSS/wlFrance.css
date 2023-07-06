@@ -330,8 +330,10 @@ nav .nav-link {
 
 .overlay {
   position: relative;
-  width: inherit;
-  height: inherit;
+  /* width: inherit;
+  height: inherit; */
+  width: 100%;
+  height: 100%;
   /* width: 100vw;
   height: 700px;
   overflow: hidden; */
@@ -500,6 +502,7 @@ nav .nav-link {
   border-radius: 4px;
   background-color: transparent;
   padding: 30px 24px;
+  position: relative;
 }
 
 .location-card:hover {
@@ -511,17 +514,19 @@ nav .nav-link {
   transform: scale3d(1.08, 1.08, 1);
 }
 
-.location-indonesia:hover {
-  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg");
-}
-
-.location-egypt:hover {
-  background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd011e021d4678eb27a0f_020.jpeg");
-}
 
 .location-card:hover h4,
 .location-card:hover .subtitle {
   color: white;
+}
+
+/* .location-card:hover .location-name {
+  color: white;
+} */
+
+.location-card:hover .location-card-background {
+  opacity: 1;
+  z-index: -1;
 }
 
 h4 {
@@ -548,6 +553,20 @@ h4 {
   border-width: 1px;
   border-color: #fff;
   border-radius: 100px;
+}
+
+.location-card-background {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  border-radius: 4px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
 }
 
 .slider-bottom {
