@@ -17,6 +17,17 @@ h1 {
   letter-spacing: -0.025em;
 }
 
+a {
+  color: inherit;
+  /* 这将使链接的颜色与其父元素的颜色相同 */
+  text-decoration: none;
+  /* 这将去除链接的下划线 */
+}
+
+a:hover {
+  color: inherit;
+}
+
 @font-face {
   font-family: "Eudoxussans";
   src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
@@ -308,15 +319,6 @@ nav .nav-right .destinations {
   text-transform: uppercase;
 }
 
-/* nav .nav-link {
-  border-bottom: 2px none rgba(15, 19, 38, 0);
-  color: #081c3a;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  text-decoration: none;
-  text-transform: uppercase;
-} */
 nav .nav-link {
   border-bottom: 2px none rgba(15, 19, 38, 0);
   color: #081c3a;
@@ -545,9 +547,6 @@ nav .nav-link {
   color: white;
 }
 
-/* .location-card:hover .location-name {
-  color: white;
-} */
 
 .location-card:hover .location-card-background {
   opacity: 1;
@@ -652,36 +651,7 @@ h4 {
   background-color: #fff;
 }
 
-.contact {
-  box-sizing: border-box;
-  width: 100vw;
-  height: 910px;
-}
 
-.contact-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  padding: 48px 48px 0 48px;
-  background-color: #fff;
-  position: relative;
-  top: -50px;
-  border-radius: 5px;
-}
-
-.contact-form-wrapper {
-  width: 1268px;
-}
-
-.contact .form-block {
-  width: 778px;
-  padding: 60px;
-  margin-bottom: 0px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2);
-  border-radius: 12px;
-  background-color: #f7f8fc;
-}
 
 label {
   display: block;
@@ -763,271 +733,13 @@ label {
   letter-spacing: -0.025em;
 }
 
-.benefits {
-  margin-left: 80px;
-  background-color: #f7f8fc;
-}
 
-.section .intro-wrapper {
-  width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section .intro-content {
-  max-width: 475px;
-}
-
-.body-display {
-  color: #516381;
-  font-size: 19px;
-}
-
-.section .intro-content .choose-a-des {
-  position: absolute;
-  padding: 16px 32px;
-  background-color: #3572ff;
-  transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: #fff;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 3px;
-  text-decoration: none;
-}
-
-.section .intro-image {
-  background-image: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6075041a5cc5c760b623c7e7_Travel004.jpeg);
-  height: 437px;
-  width: 725px;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-
-.section .choose-a-des .destination-content {
-  font-size: 11px;
-}
-
-.section .benefits-bottom {
-  margin-top: 100px;
-  width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.horizontal-line {
-  height: 1px;
-  flex: 1;
-  background-color: rgba(192, 192, 211, 0.2);
-}
-
-.section .benefits-box {
-  border-radius: 12px;
-  background-color: #fff;
-  border: 1px solid rgba(192, 192, 211, 0.2);
-  position: relative;
-}
-
-.section .benefit-card {
-  padding: 30px 30px;
-  flex-grow: 1;
-}
-
-.section .right-border {
-  border-right: 1px solid rgba(192, 192, 211, 0.2);
-}
-
-.section .benefit-card .benefit-icon {
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2);
-  border-radius: 100%;
-  background-color: #f7f8fc;
-  color: #516381;
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.section .benefit-card .benefit-img {
-  width: 26px;
-  height: 26px;
-}
-
-.testimonial-section {
-  padding-top: 180px;
-  padding-bottom: 320px;
-  background: url(https://assets.website-files.com/60675f13ea324fdd4af9ef2a/6074ef622e17622ba2a018a4_Villa0017.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.testimonial-section .testimonial-wrapper {
-  margin-left: 80px;
-}
-
-.testimonial-section .testimonial-mask {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
-}
-
-.testimonial-section .testimonial-tracker .tracker-item {
-  position: relative;
-  display: flex;
-  width: 48px;
-  height: 66px;
-  justify-content: center;
-  align-items: center;
-  border-left: 3px solid hsla(0, 0%, 100%, 0);
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.testimonial-section .testimonial-tracker .tracker-item .tracker-fill {
-  position: absolute;
-  left: -3px;
-  top: 0%;
-  right: auto;
-  bottom: 0%;
-  width: 3px;
-  margin-top: 9px;
-  margin-bottom: 9px;
-  border-radius: 100px;
-  background-color: #fff;
-}
-
-.testimonial-arrow {
-  left: 0%;
-  top: auto;
-  right: 72px;
-  bottom: 9px;
-  /* z-index: 25; */
-  display: flex;
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  background-color: #fff;
-}
 
 .slider-arrow-icon {
   width: 16px;
 }
 
-/* membership section */
-.section-membership {
-  width: 1362px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: -100px;
-}
 
-.section .popular-vacations {
-  padding: 36px 36px 0px;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-.section .vacation-card {
-  padding: 18px 18px;
-}
-
-.vacations-tab-menu {
-  position: relative;
-  padding-bottom: 36px;
-  color: #516381;
-  font-size: 12px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-  border-bottom: 3px solid #e6e6f3;
-}
-
-.membership-circle {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: auto;
-  top: 33px;
-  /* z-index: 30; */
-  display: flex;
-  width: 42px;
-  height: 42px;
-  justify-content: center;
-  align-items: center;
-}
-
-.membership-dot {
-  position: relative;
-  /* z-index: 10; */
-  width: 12px;
-  height: 12px;
-  border-radius: 100px;
-  background-color: #e6e6f3;
-}
-
-.membership-outline-circle {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e6e6f3;
-  border-radius: 100%;
-  background-color: #fff;
-}
-
-.vacations-verticle-card {
-  min-height: 300px;
-  width: 400px;
-  padding: 18px;
-  padding-bottom: 0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2);
-  border-radius: 12px;
-  transition: box-shadow 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.verticle-card-image {
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  min-height: 250px;
-  border-radius: 12px;
-}
-
-.vacation-details {
-  padding-top: 18px;
-  padding-right: 12px;
-  padding-left: 12px;
-
-  border-top: 1px solid rgba(192, 192, 211, 0.2);
-}
-
-.vacation-card-info {
-  min-height: 60px;
-  padding-right: 12px;
-  padding-bottom: 0px;
-  padding-left: 12px;
-}
 
 /* contact-section */
 .contact-section {
@@ -1095,61 +807,6 @@ label {
   color: #fff;
 }
 
-.video-hover-button {
-  position: relative;
-  /* z-index: 35; */
-  display: flex;
-  width: 150px;
-  height: 150px;
-  justify-content: center;
-  align-items: center;
-  border-style: dashed;
-  border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.3);
-  border-radius: 100%;
-  cursor: pointer;
-}
-
-.video-icon-wrapper {
-  display: flex;
-  width: 60%;
-  height: 60%;
-  justify-content: center;
-  align-items: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.2);
-  border-radius: 100%;
-  background-color: rgba(192, 192, 211, 0.2);
-}
-
-.about {
-  margin-left: 80px;
-  padding-bottom: 0;
-}
-
-.about-wrapper {
-  width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.agent {
-  margin-left: 80px;
-  padding-bottom: 140px !important;
-}
-
-.outline-button.small {
-  padding: 9px 18px;
-}
-
-.team-image {
-  border-radius: 10px;
-  height: 325px;
-  width: 270px;
-  background-position: center;
-  background-size: cover;
-}
 
 .footer {
   padding-left: 116px;
