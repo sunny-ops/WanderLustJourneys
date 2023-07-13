@@ -36,10 +36,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -47,10 +45,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -58,10 +54,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -69,10 +63,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -80,10 +72,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -91,10 +81,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -399,15 +387,14 @@ nav .nav-link {
   padding-right: 18%;
 }
 
-.home-hero .grid-wrapper {
+/* .home-hero .grid-wrapper {
   width: inherit;
   height: inherit;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 0.85fr 1fr;
-  /* grid-template-columns: minmax(80px, 1fr) minmax(auto, 1400px) minmax(80px, 1fr); */
   column-gap: 60px;
-}
+} */
 
 .home-hero .subtitle-intro-wrapper {
   float: left;
@@ -421,9 +408,9 @@ nav .nav-link {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   /* background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd5e6a5c00a1331cf28f_002.jpeg); */
-  position: sticky;
+  /* position: sticky; */
   top: 0;
-  height: 100vh;
+  height: 650px;
   overflow: hidden;
 }
 
@@ -484,9 +471,9 @@ nav .nav-link {
 }
 
 .vacation-results {
-  margin-top: 128px;
-  /* overflow: scroll; */
-  margin-right: 25%;
+  /* margin-top: 128px; */
+  /* margin-right: 25%; */
+  margin: 50px 100px;
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -652,8 +639,7 @@ h4 {
   align-items: center;
   border-style: solid none none;
   border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6)
-    hsla(0, 0%, 100%, 0.6);
+  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6) hsla(0, 0%, 100%, 0.6);
   border-radius: 0px;
   background-color: #fff;
 }
@@ -876,6 +862,28 @@ label {
 @media screen and (min-width: 1440px) {
   .team-image {
     min-height: 325px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home-hero .grid-wrapper {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.85fr 1fr;
+    column-gap: 60px;
+  }
+
+  .vacation-sticky {
+    position: sticky;
+    height: 100vh;
+  }
+
+  .vacation-results {
+    margin-left: 0;
+    margin-top: 128px;
+    margin-right: 25%;
   }
 }
 
