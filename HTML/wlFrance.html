@@ -76,37 +76,116 @@
           </svg>
         </div>
       </div>
-      <div class="nav-right">
-        <div class="brand white" style="z-index: 10 !important; position: relative">
+      <div class="nav-right" style="display: flex">
+        <div class="brand white" style=" position: relative">
           COVILLA
         </div>
-        <div class="destinations d-flex white me-5" style="z-index: 10 !important; position: relative">
-          <div>Destinations</div>
-          <div class="dropdown-lottie">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000"
-              preserveAspectRatio="xMidYMid meet" style="
-                  width: 100%;
-                  height: 100%;
-                  transform: translate3d(0px, 0px, 0px);
-                ">
-              <defs>
-                <clipPath id="__lottie_element_27">
-                  <rect width="1000" height="1000" x="0" y="0"></rect>
-                </clipPath>
-              </defs>
-              <g clip-path="url(#__lottie_element_27)">
-                <g transform="matrix(1,0,0,1,-8.06201171875,-0.91900634765625)" opacity="1" style="display: block">
-                  <g opacity="1" transform="matrix(1,0,0,1,500,500)">
-                    <path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10"
-                      stroke="rgb(23,31,45)" stroke-opacity="1" stroke-width="80"
-                      d=" M-218.5,-106.75 C-218.5,-106.75 10,122.75 10,122.75 C10,122.75 232.5,-105.75 232.5,-105.75">
-                    </path>
+        <div class="dropdown">
+          <div class="dropdown-toggle destinations d-flex white me-5"
+            style="z-index: 10 !important; position: relative; cursor: pointer;" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <div>Destinations</div>
+            <div class="dropdown-lottie">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000"
+                preserveAspectRatio="xMidYMid meet" style="
+                    width: 100%;
+                    height: 100%;
+                    transform: translate3d(0px, 0px, 0px);
+                  ">
+                <defs>
+                  <clipPath id="__lottie_element_27">
+                    <rect width="1000" height="1000" x="0" y="0"></rect>
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#__lottie_element_27)">
+                  <g transform="matrix(1,0,0,1,-8.06201171875,-0.91900634765625)" opacity="1" style="display: block">
+                    <g opacity="1" transform="matrix(1,0,0,1,500,500)">
+                      <path class="dropdown-icon" stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0"
+                        stroke-miterlimit="10" stroke="rgb(23, 31, 45)" stroke-opacity="1" stroke-width="80"
+                        d=" M-218.5,-106.75 C-218.5,-106.75 10,122.75 10,122.75 C10,122.75 232.5,-105.75 232.5,-105.75">
+                      </path>
+                    </g>
                   </g>
                 </g>
-              </g>
-            </svg>
+              </svg>
+            </div>
           </div>
+
+          <div class="dropdown-menu p-4 dropdown-locations">
+            <div class="subtitle-intro-wrapper d-flex align-items-center mb-4">
+              <div class="subtitle me-3">Choose a location</div>
+              <div class="horizontal-line"></div>
+            </div>
+            <div class="list-locations-drop">
+              <div class="location-card">
+                <div class="location-name" style="color: rgb(8, 28, 58)">
+                  <h4 class="mb-2">Saint-Tropez</h4>
+                  <div class="subtitle">France</div>
+                </div>
+                <div class="card-arrow-icon">
+                  <img
+                    src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607cb6f733628ed1e51f598b_arrowhead-right-icon-dark-light.svg"
+                    loading="lazy" alt="" class="vacation-card-arrow" />
+                </div>
+                <div class="location-card-background" style="
+                      background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dcd6aaffc543babfd2b06_007.jpeg);
+                    ">
+                  <div class="overlay"></div>
+                </div>
+              </div>
+              <div class="location-card">
+                <div class="location-name" style="color: rgb(8, 28, 58)">
+                  <h4 class="mb-2">Marsa Matruh</h4>
+                  <div class="subtitle">Egypt</div>
+                </div>
+                <div class="card-arrow-icon">
+                  <img
+                    src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607cb6f733628ed1e51f598b_arrowhead-right-icon-dark-light.svg"
+                    loading="lazy" alt="" class="vacation-card-arrow" />
+                </div>
+                <div class="location-card-background" style="
+                      background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd05842ed0ca33b05149f_029.jpeg);
+                    ">
+                  <div class="overlay"></div>
+                </div>
+              </div>
+              <div class="location-card">
+                <div class="location-name" style="color: rgb(8, 28, 58)">
+                  <h4 class="mb-2">Gili Islands</h4>
+                  <div class="subtitle">Indonesia</div>
+                </div>
+                <div class="card-arrow-icon">
+                  <img
+                    src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607cb6f733628ed1e51f598b_arrowhead-right-icon-dark-light.svg"
+                    loading="lazy" alt="" class="vacation-card-arrow" />
+                </div>
+                <div class="location-card-background" style="
+                      background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg);
+                    ">
+                  <div class="overlay"></div>
+                </div>
+              </div>
+              <div class="location-card">
+                <div class="location-name" style="color: rgb(8, 28, 58)">
+                  <h4 class="mb-2">Meteora</h4>
+                  <div class="subtitle">Greece</div>
+                </div>
+                <div class="card-arrow-icon">
+                  <img
+                    src="https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607cb6f733628ed1e51f598b_arrowhead-right-icon-dark-light.svg"
+                    loading="lazy" alt="" class="vacation-card-arrow" />
+                </div>
+                <div class="location-card-background" style="
+                      background-image: url(https://assets.website-files.com/606764630d23c37bf9d41bb1/607dceb50894ded296b2297d_019.jpeg);
+                    ">
+                  <div class="overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
       </div>
     </nav>
     <div class="grid-wrapper">

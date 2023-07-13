@@ -355,6 +355,105 @@ nav .nav-link {
   align-items: center;
 }
 
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.list-locations-drop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 18px;
+  /* padding-bottom: 80px; */
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(192, 192, 211, 0.2);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 30px 24px;
+  position: relative;
+}
+
+.location-card:hover {
+  /* background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s;
+  transform: scale3d(1.07, 1.07, 1);
+}
+
+.location-card:hover h4,
+.location-card:hover .subtitle {
+  color: white;
+}
+
+.location-card:hover .location-card-background {
+  opacity: 1;
+  z-index: -1;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card-arrow-icon {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 100px;
+}
+
+.location-card-background {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  border-radius: 4px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.dropdown-locations {
+  padding: 24px !important;
+  background-color: #fff;
+  width: 500px;
+  position: absolute;
+  left: -313px !important;
+  top: 50px !important;
+  border-radius: 12px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
 .home-hero {
   width: 100vw;
 }
@@ -387,17 +486,10 @@ nav .nav-link {
   padding-right: 18%;
 }
 
-/* .home-hero .grid-wrapper {
-  width: inherit;
-  height: inherit;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 0.85fr 1fr;
-  column-gap: 60px;
-} */
+
 
 .home-hero .subtitle-intro-wrapper {
-  float: left;
+  /* float: left; */
   display: flex;
   flex-direction: row;
   align-items: center;
