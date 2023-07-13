@@ -1270,7 +1270,7 @@ h4 {
   left: 7%;
   width: 40%;
   margin: 0 auto;
-  z-index: 20;
+  /* z-index: 20; */
   display: -ms-grid;
   display: grid;
   min-height: 150px;
