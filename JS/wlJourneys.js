@@ -60,11 +60,13 @@ var scrollDiv = document.querySelector(".scroll-div");
 var navRight = document.querySelector(".nav-right");
 var brand = document.querySelector(".brand");
 var destinations = document.querySelector(".destinations");
+var drop = document.querySelector(".dropdown-icon");
 window.onscroll = () => {
   // console.log(window.scrollY);
   scrollIndicator.style.top = `${(window.scrollY * 80) / 6432.5}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
+  drop.setAttribute('stroke', 'rgb(23, 31, 45)');
   scrollDiv.style.top = `${window.scrollY / 5 - 80}px`;
   //   console.log(scrollDiv.style.top);
   if (window.scrollY > 400) {

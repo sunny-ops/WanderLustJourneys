@@ -21,8 +21,8 @@ var brand = document.querySelector(".brand");
 var destinations = document.querySelector(".destinations");
 var drop = document.querySelector(".dropdown-icon");
 window.onscroll = () => {
-  //   console.log(window.scrollY);
-  scrollIndicator.style.top = `${(window.scrollY * 80) / 1877}%`;
+  console.log(window.scrollY);
+  scrollIndicator.style.top = `${(window.scrollY * 80) / 2711}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
   drop.setAttribute('stroke', 'rgb(23, 31, 45)');

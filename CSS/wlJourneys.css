@@ -10,9 +10,12 @@ body {
 }
 
 a {
-  color: inherit; /* 这将使链接的颜色与其父元素的颜色相同 */
-  text-decoration: none; /* 这将去除链接的下划线 */
+  color: inherit;
+  /* 这将使链接的颜色与其父元素的颜色相同 */
+  text-decoration: none;
+  /* 这将去除链接的下划线 */
 }
+
 a:hover {
   color: inherit;
 }
@@ -29,10 +32,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -40,10 +41,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -51,10 +50,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -62,10 +59,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -73,10 +68,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -84,10 +77,8 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff")
-      format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf")
-      format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff") format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -275,7 +266,6 @@ nav .nav-right {
 }
 
 nav .nav-right .brand {
-  float: left;
   font-family: Eudoxussans, sans-serif;
   color: #fff;
   font-size: 22px;
@@ -288,18 +278,17 @@ nav .nav-right .brand {
 }
 
 nav .nav-right .destinations {
-  float: right;
+  /* float: right; */
   padding: 12px 18px;
   border: 1px solid rgba(192, 192, 211, 0.2);
   border-radius: 3px;
   background-color: hsla(0, 0%, 100%, 0);
-  color: #fff;
+  /* color: #222222; */
+  color: white;
   font-size: 11px;
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  /* position: relative;
-  z-index: -1; */
 }
 
 nav .nav-link {
@@ -332,6 +321,128 @@ nav .nav-link {
   align-items: center;
 }
 
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.featured-vacation-info {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+}
+
+.list-locations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 18px;
+  /* padding-bottom: 80px; */
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(192, 192, 211, 0.2);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 30px 24px;
+  position: relative;
+}
+
+.location-card:hover {
+  /* background-image: url("https://assets.website-files.com/606764630d23c37bf9d41bb1/607dd12fe021d4a542b3459c_030.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s;
+  transform: scale3d(1.07, 1.07, 1);
+}
+
+.location-card:hover h4,
+.location-card:hover .subtitle {
+  color: white;
+}
+
+.location-card:hover .location-card-background {
+  opacity: 1;
+  z-index: -1;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card-arrow-icon {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 100px;
+}
+
+.location-card-background {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  border-radius: 4px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 0.25rem;
+}
+
+.dropdown-locations {
+  padding: 24px !important;
+  background-color: #fff;
+  width: 500px;
+  position: absolute;
+  left: -313px !important;
+  top: 50px !important;
+  border-radius: 12px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
 .home-hero {
   width: 100vw;
   height: 1124px;
@@ -356,6 +467,23 @@ nav .nav-link {
   background-color: rgba(15, 19, 38, 0.55);
 }
 
+.overlay {
+  position: relative;
+  /* width: inherit;
+    height: inherit; */
+  width: 100%;
+  height: 100%;
+  /* width: 100vw;
+    height: 700px;
+    overflow: hidden; */
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgba(15, 19, 38, 0.55);
+}
+
+
 .home-hero .scroll-div {
   position: absolute;
   top: -80px;
@@ -373,9 +501,9 @@ nav .nav-link {
   margin-top: 400px;
 }
 
-.home-hero .subtitle-intro-wrapper {
+/* .home-hero .subtitle-intro-wrapper {
   float: left;
-}
+} */
 
 .slider-bottom {
   position: absolute;
@@ -423,8 +551,7 @@ nav .nav-link {
   align-items: center;
   border-style: solid none none;
   border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6)
-    hsla(0, 0%, 100%, 0.6);
+  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6) hsla(0, 0%, 100%, 0.6);
   border-radius: 5px;
   background-color: #fff;
   cursor: pointer;
@@ -655,8 +782,7 @@ nav .nav-link {
 }
 
 .section .benefit-card:hover {
-  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   transition: 1s;
   /* border: 2px solid rgba(192, 192, 211, 0.2); */
@@ -831,6 +957,7 @@ nav .nav-link {
 .membership-circle:hover {
   cursor: pointer;
 }
+
 .membership-dot {
   /* position: relative; */
   /* z-index: 10; */
@@ -863,8 +990,7 @@ nav .nav-link {
 }
 
 .vacations-verticle-card:hover {
-  transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   transition: 2s;
   cursor: pointer;
@@ -1066,6 +1192,7 @@ nav .nav-link {
   width: inherit;
   height: 696px;
 }
+
 .journal-left-background:hover {
   transition: 2s;
   transform: scale3d(1.05, 1.05, 1);
@@ -1145,6 +1272,7 @@ nav .nav-link {
   transform: scale3d(1.05, 1.05, 1);
   cursor: pointer;
 }
+
 .journal-list-image {
   width: 100%;
   height: 142px;
@@ -1204,6 +1332,7 @@ nav .nav-link {
 .footer-outline {
   margin: 9px 22px;
 }
+
 .footer-outline:hover {
   background-color: #f7f8fc;
   padding: 9px 22px;
