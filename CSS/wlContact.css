@@ -605,7 +605,7 @@ h4 {
 .contact {
   box-sizing: border-box;
   width: 100vw;
-  height: 910px;
+  /* height: 910px; */
 }
 
 .contact-wrapper {
@@ -623,7 +623,7 @@ h4 {
 }
 
 .contact .form-block {
-  width: 778px;
+  /* width: 778px; */
   padding: 60px;
   margin-bottom: 0px;
   border-style: solid;
@@ -640,7 +640,7 @@ label {
 }
 
 .contact-quick-links {
-  width: 428px;
+  /* width: 428px; */
 }
 
 .quick-link-item {
