@@ -74,6 +74,17 @@ window.onscroll = () => {
   }
 };
 
+// hero video pop
+var videoHoverButton = document.querySelector(".video-hover-button");
+var heroVideoPopup = document.querySelector(".hero-video-popup");
+var heroVideoWrapper = document.querySelector(".hero-video-wrapper");
+videoHoverButton.onclick = () => {
+  heroVideoPopup.style.display = "flex";
+  // heroVideoWrapper.style.transition = "all 5s ease 0s;";
+  heroVideoWrapper.style.opacity = "1";
+  heroVideoWrapper.style.transform = "skew(0deg, 0deg)"
+}
+
 // membership section
 var verticalImgs = document.getElementsByClassName("vacation-image");
 var cardLocs = document.getElementsByClassName("card-location");
