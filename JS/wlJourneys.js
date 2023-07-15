@@ -78,11 +78,15 @@ window.onscroll = () => {
 var videoHoverButton = document.querySelector(".video-hover-button");
 var heroVideoPopup = document.querySelector(".hero-video-popup");
 var heroVideoWrapper = document.querySelector(".hero-video-wrapper");
+var closeLink = document.querySelector(".close-link");
 videoHoverButton.onclick = () => {
   heroVideoPopup.style.display = "flex";
-  // heroVideoWrapper.style.transition = "all 5s ease 0s;";
+  heroVideoWrapper.style.transition = "all 5s ease 0s;";
   heroVideoWrapper.style.opacity = "1";
   heroVideoWrapper.style.transform = "skew(0deg, 0deg)"
+}
+closeLink.onclick = () => {
+  heroVideoPopup.style.display = "none";
 }
 
 // membership section

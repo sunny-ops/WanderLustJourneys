@@ -376,6 +376,10 @@ nav .nav-left {
   text-transform: uppercase;
 }
 
+.close-link:hover {
+  color: #fff;
+}
+
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
