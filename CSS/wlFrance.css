@@ -36,8 +36,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7da42ec1f27a5ac36_EudoxusSans-Bold.ttf")
+      format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -45,8 +47,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b872e24920e7_EudoxusSans-ExtraBold.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c74bc85c749e7467d5_EudoxusSans-ExtraBold.ttf")
+      format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -54,8 +58,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c712ac99e7e26540db_EudoxusSans-ExtraLight.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b234b2770b3dedad_EudoxusSans-ExtraLight.ttf")
+      format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -63,8 +69,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c79365297cceebaa1f_EudoxusSans-Light.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c73882b843ba4920e6_EudoxusSans-Light.ttf")
+      format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -72,8 +80,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c732d3054763d2f6ca_EudoxusSans-Medium.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7f8c2f13a90c22a66_EudoxusSans-Medium.ttf")
+      format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -81,8 +91,10 @@ a:hover {
 
 @font-face {
   font-family: "Eudoxussans";
-  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff") format("woff"),
-    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf") format("truetype");
+  src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7a878c73e0e38782d_EudoxusSans-Regular.woff")
+      format("woff"),
+    url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c7b612d1309542aa50_EudoxusSans-Regular.ttf")
+      format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -519,8 +531,6 @@ h4 {
   padding-right: 18%;
 }
 
-
-
 .home-hero .subtitle-intro-wrapper {
   /* float: left; */
   display: flex;
@@ -591,7 +601,7 @@ h4 {
 
 .featured-vacation-info {
   position: absolute;
-  left: 80px;
+  left: 150px;
   bottom: 80px;
 }
 
@@ -764,7 +774,8 @@ h4 {
   align-items: center;
   border-style: solid none none;
   border-width: 1px;
-  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6) hsla(0, 0%, 100%, 0.6);
+  border-color: rgba(192, 192, 211, 0.2) hsla(0, 0%, 100%, 0.6)
+    hsla(0, 0%, 100%, 0.6);
   border-radius: 0px;
   background-color: #fff;
 }
@@ -881,7 +892,7 @@ label {
 }
 
 .button {
-  width: 60%;
+  width: 200px;
   display: flex;
   padding: 16px 16px;
   justify-content: center;
