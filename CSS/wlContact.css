@@ -9,6 +9,17 @@ body {
   color: #081c3a;
 }
 
+a {
+  color: inherit;
+  /* 这将使链接的颜色与其父元素的颜色相同 */
+  text-decoration: none;
+  /* 这将去除链接的下划线 */
+}
+
+a:hover {
+  color: inherit;
+}
+
 @font-face {
   font-family: "Eudoxussans";
   src: url("https://assets.website-files.com/60675f13ea324fdd4af9ef2a/607e10c796e5f67412d78bc0_EudoxusSans-Bold.woff") format("woff"),
@@ -1116,6 +1127,22 @@ label {
 .footer-wrapper {
   margin: 0 10%;
   height: 82px;
+}
+
+.footer-item {
+  border-radius: 5px;
+}
+
+.footer-outline {
+  margin: 9px 22px;
+}
+
+.footer-outline:hover {
+  background-color: #f7f8fc;
+  padding: 9px 22px;
+  transition: 2s;
+  margin: 0 0;
+  cursor: pointer;
 }
 
 .footer-logo {
