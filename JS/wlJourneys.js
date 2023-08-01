@@ -66,7 +66,7 @@ window.onscroll = () => {
   scrollIndicator.style.top = `${(window.scrollY * 80) / 6432.5}%`;
   brand.style.color = "#081c3a";
   destinations.style.color = "#081c3a";
-  drop.setAttribute('stroke', 'rgb(23, 31, 45)');
+  drop.setAttribute("stroke", "rgb(23, 31, 45)");
   scrollDiv.style.top = `${window.scrollY / 5 - 80}px`;
   //   console.log(scrollDiv.style.top);
   if (window.scrollY > 400) {
@@ -80,14 +80,15 @@ var heroVideoPopup = document.querySelector(".hero-video-popup");
 var heroVideoWrapper = document.querySelector(".hero-video-wrapper");
 var closeLink = document.querySelector(".close-link");
 videoHoverButton.onclick = () => {
-  heroVideoPopup.style.display = "flex";
-  heroVideoWrapper.style.transition = "all 5s ease 0s;";
+  heroVideoPopup.style.zIndex = 1000;
+
   heroVideoWrapper.style.opacity = "1";
-  heroVideoWrapper.style.transform = "skew(0deg, 0deg)"
-}
+  heroVideoWrapper.style.transform = "skew(0deg, 0deg)";
+};
 closeLink.onclick = () => {
-  heroVideoPopup.style.display = "none";
-}
+  heroVideoWrapper.style.opacity = "0";
+  // heroVideoPopup.style.display = "none";
+};
 
 // membership section
 var verticalImgs = document.getElementsByClassName("vacation-image");
