@@ -81,13 +81,11 @@ var heroVideoWrapper = document.querySelector(".hero-video-wrapper");
 var closeLink = document.querySelector(".close-link");
 videoHoverButton.onclick = () => {
   heroVideoPopup.style.zIndex = 1000;
-
   heroVideoWrapper.style.opacity = "1";
   heroVideoWrapper.style.transform = "skew(0deg, 0deg)";
 };
 closeLink.onclick = () => {
   heroVideoWrapper.style.opacity = "0";
-  // heroVideoPopup.style.display = "none";
 };
 
 // membership section
